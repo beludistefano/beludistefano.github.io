@@ -1,0 +1,101 @@
+body {
+    font-size: 16px;
+    color:#009688;
+    background: url(../images/istockphoto-941391600-170667a.jpg);
+    font-family: 'Lobster', cursive;
+}
+
+#header{
+    background-color: #009688;
+    border-radius: 0;
+    border-top: 15px solid #00675b;
+}
+
+.navbar-brand{
+    height: 80px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+  
+.navbar-brand h1{
+    color: whitesmoke;
+    font-size: 2em;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-shadow: 1px 1px 1px #00675b;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus{
+    text-decoration: none;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid white;
+    background-color: #52c7b8;
+}
+
+.navbar-header button.navbar-toggle {
+    margin-top: 21px;
+}
+
+#container-title{
+    font-size: 4em;
+    color: #00675b;
+    text-shadow: 1px 1px 1px black;
+    letter-spacing: 3px;
+    margin-bottom: 30px;
+}
+
+#chicken-content{
+    background-color: #00675b;
+    border: 1px solid white;
+    box-shadow: 0 1px 5px 1px grey;
+    padding: 30px;
+    margin-bottom: 30px;
+    min-height: 700px;
+}
+
+
+#chicken-content h2{
+    color: whitesmoke;
+    font-size: 2em;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-shadow: 1px 1px 1px black;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    line-height: .75;
+    text-align: center;
+}
+
+#chicken-content p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+@media (max-width: 767px){
+    #collapsable-nav{
+    background-color: #52c7b8;
+    }
+
+    #main-content.container{
+        width: 80%;
+    }
+
+    #collapsable-nav li:hover, #collapsable-nav li:active{
+        background-color: lightgrey;
+    }
+    
+    #collapsable-nav li a{
+        color: #373737;
+    }
+    
+    #collapsable-nav li a:hover, #collapsable-nav li a:active{
+    color: #00675b;
+    }
+
+}
